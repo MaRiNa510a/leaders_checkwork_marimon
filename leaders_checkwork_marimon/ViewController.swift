@@ -9,6 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var label: UILabel!
+    
+    var number:
+    
+    @IBAction func next() {
+        label.text = String(number)
+    }
+    
+    @IBAction func back() {
+        label.text = String(number)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
